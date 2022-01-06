@@ -1,0 +1,12 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* margin-top: -15em; */
+    margin-right: 3em;
+}
+
+.todo-title {
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+}

@@ -1,0 +1,50 @@
+.todo-input {
+    display: flex;
+
+    border: none;
+    outline: none;
+
+    color: #313131;
+
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 0px 8px;
+    margin-top: 1em;
+    padding: 1em;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.filter-todo {
+    display: flex;
+
+    border: none;
+    outline: none;
+
+    border-radius: 0px 0px 8px 0px;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 1em;
+    padding: 1em;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.todo-button {
+    display: flex;
+
+    border: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 1.5em;
+
+    border-radius: 0px 0px 8px 0px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.todos {
+    display: flex;
+    flex-direction: 'row';
+    justify-content: 'center';
+}

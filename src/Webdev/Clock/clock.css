@@ -1,0 +1,11 @@
+.clock {
+    font-family: 'Montseratt', sans-serif;
+    font-size: calc(1px + 4vmin);
+
+    display: flex;
+    justify-content: right;
+
+    margin-bottom: -2.1em;
+    padding-right: 1em;
+    color: #464644;
+}

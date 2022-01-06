@@ -1,0 +1,30 @@
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    padding: .5em;
+    padding-right: 8em;
+}
+
+.todo-item {
+    display: flex;
+    padding: 1.5em;
+    padding-right: 8em;
+    width: 10em;
+}
+
+.button, .button-delete {
+    display: flex;
+    border: none;
+    margin: 1em;
+    padding: 1em;
+}
+
+.button {
+    border-radius: 8px 0px 0px 8px;
+    color: rgb(65, 148, 225)
+}
+
+.button-delete {
+    border-radius: 0px 8px 8px 0px;
+    color: rgb(218, 70, 70);
+}

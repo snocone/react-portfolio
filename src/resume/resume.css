@@ -1,0 +1,56 @@
+.lang, .frame, .tools {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 50em;
+}
+
+h2 {
+    padding: .5em;
+}
+
+.second {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    text-align: left;
+    max-width: 50em;
+}
+
+.sec-text {
+    padding: 2em;
+    max-width: 73em;
+}
+
+.sec-alt-text {
+    padding: 2em;
+    max-width: 73em;
+    text-align: right;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    max-width: 15em;
+    text-align: left;
+    margin: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    margin: .5em;
+    padding: .5em;
+    border-style: none;
+    border-radius: .5em;
+    max-width: 20em;
+    min-height: 2em;
+    color: rgba(128, 128, 128, 0.308);
+}
